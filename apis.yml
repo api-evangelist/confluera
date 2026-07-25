@@ -1,8 +1,26 @@
 aid: confluera
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/confluera.png
 name: Confluera
-description: Confluera is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Confluera was a cybersecurity company founded in 2018 in Palo Alto, California, backed by
+  Lightspeed Venture Partners, that built a Cloud eXtended Detection and Response (CxDR) platform for
+  autonomous, real-time detection and response across cloud and on-premises infrastructure. Its technology
+  correlated low-level security signals into progressing cyberattack storylines. Confluera was acquired by
+  Zscaler (announced December 2022, closed early 2023); the standalone confluera.com domain has since been
+  retired and no independent developer portal, API, or documentation surface remains publicly reachable.
+x-status: acquired
+x-acquired-by: zscaler
+x-domain-status: not-resolving
 url: https://raw.githubusercontent.com/api-evangelist/confluera/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +30,23 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Cybersecurity
+- Security
+- Threat Detection
+- Detection and Response
+- Cloud Security
+- XDR
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
